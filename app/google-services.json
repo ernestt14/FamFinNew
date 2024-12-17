@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "538222967870",
+    "firebase_url": "https://finnew-9c701-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "finnew-9c701",
+    "storage_bucket": "finnew-9c701.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538222967870:android:4676c3cfa68e0c151da56f",
+        "android_client_info": {
+          "package_name": "com.example.finnew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFNaw5yA7BoxWb30XaZntG2arOZqGHcJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

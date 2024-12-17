@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAFB"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:layout_margin="8dp"
+        android:clipToPadding="false">
+
+        <!-- Current Expense Details -->
+        <TextView
+            android:id="@+id/tvCurrentDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"
+            android:background="#EEEEEE"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Amount Input -->
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Amount"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Description Input -->
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Description"
+            android:padding="12dp"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Category Spinner -->
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEEEEE"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Selected Date TextView -->
+        <TextView
+            android:id="@+id/tvSelectedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#EEEEEE" />
+
+        <!-- Pick Date Button -->
+        <Button
+            android:id="@+id/btnSelectDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick a Date"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6200EE"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Location Button -->
+        <Button
+            android:id="@+id/btnCaptureLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capture Location"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#03A9F4"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Location TextView -->
+        <TextView
+            android:id="@+id/tvLocationDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location not captured yet"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:padding="8dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Changes"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Delete Button -->
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F44336"
+            android:text="Delete Expense"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
